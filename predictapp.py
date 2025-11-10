@@ -1,8 +1,8 @@
 import joblib
 import numpy as np
-model=joblib.load('diabet/diabetes_model.pkl')
-scaler = joblib.load("diabet/scaler.pkl")
-feature_names = joblib.load("diabet/feature_names.pkl")
+model=joblib.load('diabetes_model.pkl')
+scaler = joblib.load("scaler.pkl")
+feature_names = joblib.load("feature_names.pkl")
 print("Введите данные по каждому признаку:")
 user_data=[]
 for feature in feature_names:
