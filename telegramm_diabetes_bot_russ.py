@@ -140,7 +140,7 @@ def cancel(update: Update, context: CallbackContext):
 # === Основная функция ===
 def main():
     # ⚠️ Вставь сюда токен от BotFather
-    TOKEN = "8397219511:AAFNdRZ_JY5ypYMck1zF5SJQDcZEqVBtxSg"
+    TOKEN = ""
 
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
